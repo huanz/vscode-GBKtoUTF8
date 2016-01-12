@@ -1,0 +1,28 @@
+{
+  "name": "GBKtoUTF8",
+  "displayName": "GBKtoUTF8",
+  "description": "a vscode extension to convert gbk to utf8",
+  "version": "0.0.1",
+  "publisher": "bukas",
+  "engines": {
+    "vscode": "^0.10.1"
+  },
+  "categories": [
+    "Other"
+  ],
+  "activationEvents": [
+    "*"
+  ],
+  "main": "./out/src/extension",
+  "scripts": {
+    "vscode:prepublish": "node ./node_modules/vscode/bin/compile",
+    "compile": "node ./node_modules/vscode/bin/compile -watch -p ./"
+  },
+  "devDependencies": {
+    "typescript": "^1.6.2",
+    "vscode": "0.10.x"
+  },
+  "dependencies": {
+    "iconv-lite": "^0.4.13"
+  }
+}
