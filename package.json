@@ -18,6 +18,22 @@
     "vscode:prepublish": "node ./node_modules/vscode/bin/compile",
     "compile": "node ./node_modules/vscode/bin/compile -watch -p ./"
   },
+  "homepage": "https://github.com/huanz/vscode-GBKtoUTF8",
+  "keywords": [
+    "vscode",
+    "gbk",
+    "gb2312",
+    "utf8",
+    "编码",
+    "乱码"
+  ],
+  "bugs": {
+    "url": "https://github.com/huanz/vscode-GBKtoUTF8/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/huanz/vscode-GBKtoUTF8.git"
+  },
   "devDependencies": {
     "typescript": "^1.6.2",
     "vscode": "0.10.x"
