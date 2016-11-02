@@ -2,7 +2,7 @@
   "name": "GBKtoUTF8",
   "displayName": "GBKtoUTF8",
   "description": "a vscode extension to convert gbk to utf8",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "publisher": "bukas",
   "engines": {
     "vscode": "^0.10.1"
